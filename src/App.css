@@ -1,0 +1,924 @@
+/* Page Fonts */
+
+@font-face {
+  font-family: find-drive;
+  src: url("./Fonts/Hoefler\ Text\ Black.ttf");
+}
+
+@font-face {
+  font-family: drive-description;
+  src: url("./Fonts/Helvetica-Bold.ttf");
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../src/Fonts/Poppins-Bold.ttf");
+}
+
+
+.main-container {
+  width: 100vw !important;
+  padding: 0px !important;
+}
+
+/* Top Bar */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.topbar {
+  background-color: #e4e4e4 !important;
+  text-align: center;
+  padding: 17px 0px;
+  width: 100%;
+}
+
+.topbar-link {
+  color: black !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Navbar */
+.navbar {
+  width: 99%;
+
+}
+
+.host-btn {
+  border: 1px solid #808080;
+  border-radius: none;
+  color: #434343;
+  background-color: white !important;
+  font-weight: 500;
+}
+
+
+.MuiMenu-list {
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+}
+
+.MuiPaper-root,
+.MuiPaper-elevation,
+.MuiPaper-rounded,
+.MuiPaper-elevation1,
+.MuiPaper-root,
+.MuiMenu-paper,
+.MuiPaper-elevation,
+.MuiPaper-rounded,
+.MuiPaper-elevation8,
+.MuiPopover-paper,
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  margin-top: 40px !important;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.dropdown-menu {
+  margin-left: -375px;
+  overflow: hidden;
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 500px;
+}
+
+/* Find drive */
+.find-drive,
+.meet-host {
+  margin-top: 30px;
+  font-size: 120px;
+  text-align: center;
+  font-weight: 100 !important;
+  font-family: find-drive;
+}
+
+
+.explored {
+  margin-top: -30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 5px !important;
+}
+
+.line {
+  padding: 15px;
+  width: 800px;
+  margin: 0px auto;
+  background-color: #c99cff36;
+  border-radius: 2px;
+  margin-top: -25px;
+}
+
+/* Slick Slider Images */
+.slider {
+  width: 100% !important;
+  height: 170px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.card {
+  width: 100% !important;
+}
+
+.card-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.all-slider-top-name {
+  font-family: poppins !important;
+  font-size: 24px !important;
+  font-weight: bold;
+  /* margin-left: -60px !important; */
+}
+
+.browse-car {
+  font-family: poppins !important;
+  font-size: 26px !important;
+}
+
+.slider-body {
+  width: 96vw !important;
+  overflow: hidden;
+  padding: 0px 80px !important;
+}
+
+/* Second Slider Content */
+.body {
+  padding: 0px 20px !important;
+}
+
+.second-slider-image {
+  width: 100% !important;
+  height: 350px !important;
+}
+
+.second-slider-text {
+  font-family: drive-description;
+  font-weight: bold;
+  font-size: 35px !important;
+  margin-top: 10px
+}
+
+.change-design {
+  color: #593CFB;
+}
+
+.second-slick-slider-text {
+  width: 80%;
+  color: #121214 !important;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.second-slider-btns {
+  color: #ffff;
+  background-color: #593CFB !important;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 1px solid #593CFB;
+  margin-top: 50px;
+}
+
+/* Third Slick Slider */
+.card {
+  height: 230px !important;
+}
+
+.browse-destination-head {
+  font-family: poppins !important;
+  font-size: 26px !important;
+
+}
+
+.browse-destination-image {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.browse-destination-name {
+  font-family: poppins;
+  text-align: center;
+  margin: 10px 0px !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.browse-destination-slider {
+  padding: 0px 130px !important;
+}
+
+/* Fuel Dream section */
+.fuel-dream {
+  margin-top: 30px;
+  font-size: 55px !important;
+  text-align: center;
+  font-weight: 100 !important;
+  font-family: find-drive;
+}
+
+.fuel-dream-line {
+  padding: 15px 10px !important;
+  background-color: #af00af;
+  opacity: 0.1;
+  width: 35%;
+  margin: 0px auto;
+  margin-top: -40px !important;
+}
+
+.fuel-text {
+  font-family: sans-serif !important;
+  text-align: center;
+  font-size: 20px !important;
+  margin: 20px 0px !important;
+}
+
+.explore {
+  background-color: initial;
+  background-image: linear-gradient(#2525ffc7 0, #2323ff 100%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 270px;
+  margin: 20px 0px !important;
+  border-radius: 0px !important;
+}
+
+.explore:hover {
+  background-image: linear-gradient(#0000e1c7 0, #0000c1 100%);
+}
+
+.fuel-image {
+  background-image: url("./images/Fuel-section/main.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-attachment: scroll;
+  height: 650px !important;
+  margin: 30px 0px !important;
+}
+
+.fuel-detail-box {
+  background-color: #000000 !important;
+  color: #ffff !important;
+  width: 430px !important;
+  height: 300px !important;
+  margin-top: 160px;
+}
+
+.featured {
+  padding: 30px 25px !important;
+  padding-bottom: 10px !important;
+  font-size: 19px !important;
+  font-weight: bold;
+}
+
+.feature-text {
+  font-size: 35px !important;
+  padding: 0px 25px !important;
+  padding-top: 10px !important;
+  font-weight: bold;
+}
+
+.read-more {
+  padding: 0px 25px !important;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+/* Browse Experience */
+.browse-experience-head {
+  padding: 0px 135px !important;
+}
+
+.experience-image {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.experience-name {
+  font-family: sans-serif !important;
+  font-weight: bold !important;
+}
+
+.experience-name:hover {
+  text-decoration: underline !important;
+}
+
+/* Meet Hosts */
+.meet-host {
+  margin-top: 30px;
+  font-size: 80px;
+  font-weight: bold !important;
+  font-family: serif;
+}
+
+.meet-host-line {
+  padding: 15px 10px !important;
+  background-color: #af00af;
+  opacity: 0.1;
+  width: 35%;
+  margin: 0px auto;
+  margin-top: -40px !important;
+}
+
+.host-image {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.host-person {
+  font-family: poppins !important;
+  font-weight: bold;
+  font-size: 22px !important;
+}
+
+.host-star,
+.host-join {
+  margin-top: -8px !important;
+  font-weight: 500;
+}
+
+.host-detail,
+.host-country {
+  font-size: 20px !important;
+}
+
+
+/* Footer */
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  height: 70vh;
+}
+
+.footer-14398 {
+  padding: 2rem 0;
+  /* background: #000; */
+  background-color: #f1f1f1 !important;
+  color: #000000;
+}
+
+.footer-14398 .footer-site-logo {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer-14398 h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footer-14398 .links li {
+  margin-bottom: 10px;
+}
+
+.footer-14398 .links li a {
+  color: #000000;
+}
+
+.footer-14398 .links li a:hover {
+  text-decoration: underline !important;
+}
+
+.footer-14398 .link-menu li {
+  display: inline-block;
+}
+
+.footer-14398 .link-menu li a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+
+
+/* Media Query For Person Dropdown in navbar */
+@media screen and (max-width: 1400px) {
+  .browse-destination {
+    margin-right: 70px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .topbar-link {
+    color: black !important;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .key-image {
+    width: 700px !important;
+  }
+
+  .meet-host {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold !important;
+    font-family: serif;
+  }
+
+  .fuel-dream {
+    margin-top: 30px;
+    font-size: 45px !important;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .fuel-text {
+    font-family: sans-serif !important;
+    text-align: center;
+    font-size: 16px !important;
+    margin: 20px 0px !important;
+  }
+
+  .browse-experience-head {
+    padding: 0px 85px !important;
+  }
+
+  .fuel-image {
+    background-image: url("./images/Fuel-section/main.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: scroll;
+    height: 600px !important;
+    margin: 30px 0px !important;
+  }
+
+  .fuel-detail-box {
+    background-color: #000000 !important;
+    color: #ffff !important;
+    width: 330px !important;
+    height: 250px !important;
+    margin-top: 120px;
+  }
+
+  .featured {
+    padding: 30px 25px !important;
+    padding-bottom: 10px !important;
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+
+  .feature-text {
+    font-size: 25px !important;
+    padding: 0px 25px !important;
+    padding-top: 10px !important;
+    font-weight: bold;
+  }
+
+  .read-more {
+    padding: 0px 25px !important;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
+
+  .explore {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+  }
+
+  .slider-body {
+    width: 96vw !important;
+    overflow: hidden;
+    padding: 0px 60px !important;
+  }
+
+  .find-drive {
+    font-size: 70px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .explored {
+    margin-top: -30px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .line {
+    padding: 15px;
+    width: 800px;
+    margin: 0px auto;
+    background-color: #c99cff36;
+    border-radius: 2px;
+    margin-top: -25px;
+  }
+
+  .browse-destination-slider {
+    padding: 0px 100px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  .host-person {
+    font-family: poppins !important;
+    font-weight: bold;
+    font-size: 19px !important;
+  }
+
+  .fuel-image {
+    background-image: url("./images/Fuel-section/main.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 500px !important;
+    /* margin: 30px 0px !important; */
+  }
+
+  .all-slider-top-name {
+    font-size: 20px !important;
+    font-weight: bold;
+  }
+
+  .fuel-detail-box {
+    background-color: #000000 !important;
+    color: #ffff !important;
+    width: 300px !important;
+    height: 200px !important;
+    margin-top: 150px;
+  }
+
+  .featured {
+    padding: 30px 25px !important;
+    padding-bottom: 10px !important;
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+
+  .feature-text {
+    font-size: 20px !important;
+    padding: 0px 25px !important;
+    padding-top: 10px !important;
+    font-weight: bold;
+  }
+
+  .read-more {
+    padding: 0px 25px !important;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
+
+  .dropdown-menu {
+    margin-left: -175px;
+    overflow: hidden;
+    width: 310px;
+    border-radius: 10px;
+  }
+
+  .browse-destination {
+    margin-right: 0px !important;
+  }
+
+  .slider-body {
+    width: 96vw !important;
+    overflow: hidden;
+    padding: 0px 50px !important;
+  }
+
+  .find-drive {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .explored {
+    margin-top: -10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .line {
+    padding: 15px;
+    width: 80vw;
+    margin: 0px auto;
+    background-color: #c99cff36;
+    border-radius: 2px;
+    margin-top: -25px;
+  }
+
+  .second-slider-text {
+    font-family: drive-description;
+    font-size: 25px !important;
+    margin-top: 10px
+  }
+
+  .second-slick-slider-text {
+    width: 80%;
+    color: #121214 !important;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .topbar-link {
+    color: black !important;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .key-image {
+    width: 500px !important;
+  }
+
+  .host-detail,
+  .host-country {
+    font-size: 16px !important;
+  }
+
+  .host-person {
+    font-family: poppins !important;
+    font-weight: bold;
+    font-size: 18px !important;
+  }
+
+  .meet-host {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold !important;
+    font-family: serif;
+  }
+
+  .fuel-dream {
+    margin-top: 30px;
+    font-size: 35px !important;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .fuel-text {
+    font-family: sans-serif !important;
+    text-align: center;
+    font-size: 14px !important;
+    margin: 20px 5px !important;
+  }
+
+  .find-drive {
+    font-size: 38px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .all-slider-top-name {
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+
+  .browse-experience-head {
+    padding: 0px 45px !important;
+  }
+
+  .browse-destination-slider {
+    padding: 0px 70px !important;
+  }
+
+
+  .second-slider-image {
+    width: 90% !important;
+    margin: 0px auto;
+    margin-left: -10px !important;
+    height: 350px !important;
+  }
+
+  .slider-body {
+    width: 96vw !important;
+    overflow: hidden;
+    padding: 0px 30px !important;
+  }
+
+  .explored {
+    margin-top: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .line {
+    padding: 15px;
+    width: 60vw;
+    margin: 0px auto;
+    background-color: #c99cff36;
+    border-radius: 2px;
+    margin-top: -25px;
+  }
+
+  .browse-destination {
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .key-image {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .topbar-link {
+    color: black !important;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .fuel-dream {
+    margin-top: 30px;
+    font-size: 28px !important;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .fuel-detail-box {
+    background-color: #000000 !important;
+    color: #ffff !important;
+    width: 280px !important;
+    height: 200px !important;
+    margin-top: 150px;
+  }
+
+  .browse-experience-head {
+    padding: 0px 15px !important;
+  }
+
+  .find-drive {
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .browse-destination-slider {
+    padding: 0px 20px !important;
+  }
+
+  .slider-body {
+    width: 96vw !important;
+    overflow: hidden;
+    padding: 0px 20px !important;
+  }
+
+  .explored {
+    margin-top: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px !important;
+  }
+
+  .line {
+    padding: 15px;
+    width: 80vw;
+    margin: 0px auto;
+    background-color: #c99cff36;
+    border-radius: 2px;
+    margin-top: -25px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .topbar-link {
+    color: black !important;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .key-image {
+    width: 350px !important;
+  }
+
+  .meet-host {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold !important;
+    font-family: serif;
+  }
+
+  .fuel-dream {
+    margin-top: 30px;
+    font-size: 22px !important;
+    text-align: center;
+    font-weight: 100 !important;
+    font-family: find-drive;
+  }
+
+  .explored {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .slider-body {
+    width: 96vw !important;
+    overflow: hidden;
+    padding: 0px 10px !important;
+  }
+
+  .line {
+    padding: 25px;
+    width: 300px;
+    margin: 0px auto;
+    background-color: #c99cff36;
+    border-radius: 2px;
+    margin-top: -25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .key-image {
+    width: 287px !important;
+  }
+
+  .line {
+    padding: 25px;
+    width: 300px;
+    margin: 0px auto;
+    background-color: #c99cff36;
+    border-radius: 2px;
+    margin-top: -25px;
+  }
+
+  .dropdown-menu {
+    margin-left: -175px;
+    overflow: hidden;
+    width: 280px;
+    border-radius: 10px;
+  }
+}
